@@ -24,5 +24,11 @@ yarn-error.log*
 
 Home.jsx
 addImage.png
-Login.jsx
-Register.jsx
+Chat.jsx
+Chats.jsx
+Input.jsx
+Message.jsx
+Messages.jsx
+Search.jsx
+Sidebar.jsx
+Navbar.jsx
