@@ -1,0 +1,71 @@
+/* messages.css */
+.scrollable-container {
+    background-color: #ddddf7;
+    height: 391px;
+    overflow: scroll;
+  }
+  
+  /* Hide the scrollbar */
+  .scrollable-container::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  
+  .scrollable-container::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  .scrollable-container::-webkit-scrollbar-thumb {
+    background-color: #ddddf7;
+  }
+  
+  /* Show the scrollbar on hover */
+  .scrollable-container:hover::-webkit-scrollbar-thumb {
+    background-color: #a0a0a0;
+  }
+
+  .message{
+    /* flex gap-2 pt-2 pl-3 mb-4 */
+    display: flex;
+    gap: 10px;
+    padding:8px 0px 0px 12px;
+    margin-bottom: 16px;
+  }
+
+  .message h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    width: 100%;
+    padding: 5px 5px;
+    border-radius: 10px 0px 10px 10px;
+    margin-bottom: 10px;
+    width: 170px;
+  }
+
+  
+  .owner{
+    flex-direction: row-reverse;
+    padding-right: 10px;
+  }
+
+  .owner h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8da4f1;
+    color: white;
+    width: 100%;
+    padding: 5px 5px;
+    border-radius: 10px 0px 10px 10px;
+    margin-bottom: 10px;
+    width: 170px;
+  }
+
+  .onwer .box{
+        background-color: #8da4f1;
+        color: white;
+        border-radius: 10px 0px 10px 10px;
+        border: 2px solid red;
+  }
